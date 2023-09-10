@@ -1,0 +1,556 @@
+.text {
+    color: white;
+    font-size: 15px;
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 110px;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    height: 100%;
+    margin: 0 120px 0 120px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    margin-right: 51px;
+}
+
+.nav-link:last-of-type {
+    margin-right: 0;
+}
+
+.icon {
+    max-width: 30px;
+    color: white;
+    margin-left: auto;
+}
+
+#header-logo {
+    max-width: 160px;
+    left: 0;
+}
+
+#navigation-container {
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+/* Sections */
+section {
+    width: 100%;
+}
+
+h1 {
+    line-height: 95px;
+    color: white;
+    font-size: 68px;
+    font-family: 'Playfair Display', serif;
+}
+
+h6 {
+    color: white;
+    font-size: 25px;
+    font-family: 'Montserrat', serif;
+}
+
+.body-container {
+    display: grid;
+    grid-template-rows: repeat(2, 970px) 520px 970px;
+}
+
+#main-section-bg {
+    height: 100%;
+    background-image: url("/assets/images/imgBackground-1.webp");
+    background-size: cover;
+}
+
+#main-section {
+    height: calc(100% - 240px);
+    margin: 120px 120px auto 120px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#sub-section {
+    height: 518px;
+}
+
+#sub-title {
+    width: 70%;
+    line-height: 45px;
+    font-weight: 400;
+}
+
+#meeting-booking {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 75px;
+}
+
+#video-btn {
+    margin-left: 60px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#video-btn button {
+    background-color: transparent;
+    border: none;
+    width: 75px;
+    height: 75px;
+}
+
+#video-btn span {
+    color: #A1A8B6;
+    font-size: 16px;
+    margin-left: 21px;
+    text-align: left;
+}
+
+#socials-container {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#socials-container span {
+    font-weight: 400;
+    margin-bottom: 26px;
+}
+
+#socials-container svg {
+    margin-right: 46px;
+}
+
+#socials-container svg:last-child {
+    margin-right: 0;
+}
+
+#main-section-container {
+    position: relative;
+}
+
+#meeting-btn {
+    background-color: #DD9428;
+    color: black;
+    border: none;
+    border-radius: 38px;
+    font-family: 'Montserrat', serif;
+    font-size: 20px;
+    padding: 25px;
+    width: 335px;
+    height: 75px;
+    font-weight: 600;
+}
+
+#booking-examples {
+    height: 200px;
+    align-self: end;
+    display: flex;
+    flex-direction: row;
+    margin-right: 126px;
+}
+
+/* Booking tabs */
+
+.booking-tab {
+    width: 285px;
+    height: 200px;
+    border-radius: 16px;
+    margin-right: 30px;
+    position: relative;
+}
+
+.booking-tab svg {
+    position: absolute;
+    right: 24px;
+    bottom: 30px;
+}
+
+.booking-tab:last-child {
+    margin-right: 0;
+}
+
+.booking-title {
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Montserrat', serif;
+    width: 50%;
+    display: inline-block;
+    margin-left: 30px;
+}
+
+.booking-number {
+    font-family: 'Playfair Display', serif;
+    font-weight:600;
+    font-size: 25px;
+    color: white;
+    margin-left: 30px;
+}
+
+.booking-title p {
+    margin-top: 10px;
+}
+
+.booking-tab span {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+}
+
+#iceland-tab {
+    background-image: url("/assets/images/iceland.webp");
+}
+
+#dolomiti-tab {
+    background-image: url("/assets/images/dolomiti.webp");
+}
+
+#norway-tab {
+    background-image: url("/assetS/images/norway.webp");
+}
+
+/* Second Section */
+.trip-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.trip-section-container {
+    margin: 160px 260px 160px 260px;
+    width: 100%;
+    height: calc(100% - 160px * 2);
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.hawaii-card {
+    margin-left: 60px;
+    color: white;
+}
+
+.date {
+    margin-top: 40px;
+    width: 60px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card-header {
+    font-size: 23px;
+    margin: 0;
+}
+
+.card-subheader {
+    font-size: 16px;
+    margin: 4px 0 0 0;
+}
+
+.card-info {
+    position: absolute;
+    margin: 0 0 0 60px;
+    bottom: 60px;
+    width: 180px;
+    font-size: 18px;
+}
+
+.card-info-container {
+    flex-direction: column;
+    margin: 0 0 0 100px;
+}
+
+.card-info-header {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 55px;
+    color: black;
+}
+
+.card-info-container p:last-of-type {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    margin-bottom: 0;
+}
+
+.card-info-container button {
+    background-color: transparent;
+    border: 2px solid #DD9428;
+    border-radius: 38px;
+    color: #DD9428;
+    padding: 25px 65px 25px 65px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 70px;
+}
+
+.card-text {
+    position: absolute;
+    bottom: 60px;
+    width: 180px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.arrow-icon {
+    left: 630px;
+    stroke-width: 2px;
+}
+
+.card-background {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 820px;
+    height: 470px;
+    position: relative;
+    border-radius: 16px;
+}
+
+#hawaii-card-bg {
+    border-radius: 16px;
+    background: linear-gradient(2deg, rgba(0, 0, 0, 0.70) -9.42%, rgba(0, 0, 0, 0.00) 38.18%), url("/assets/images/imgHawaii-1.webp"), lightgray 50% / cover no-repeat;
+}
+
+/* Application Section */
+
+#sub-section {
+    background-image: url("/assets/images/application-bg.webp");
+}
+
+#application-card {
+    margin: 133px auto 52px 900px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#application-input {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 285px;
+    margin-top: 15px;
+}
+
+#application-input input {
+    background-color: transparent;
+    border: 2px solid #CED8DF;
+    color: #CED8DF;
+    padding: 25px 0 25px 20px;
+    border-radius: 38px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#application-input input::placeholder {
+    font-weight: 900;
+    font-size: 20px;
+}
+
+#application-input input[type="number"]::-webkit-inner-spin-button,
+#application-input input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#application-input input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+#application-input button {
+    border: none;
+    border-radius: 38px;
+    background-color: #DD9428;
+    color: #331111;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 25px 45px 25px 45px;
+    width: 100%;
+}
+
+#application-input p {
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#application-input span {
+    color: #DD9428;
+}
+
+#application-info p {
+    margin-top: 0;
+}
+
+#application-info p:first-of-type {
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 55px;
+    width: 400px;
+}
+
+#application-info p:last-of-type {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    width: 40%;
+}
+
+/* Idk lol */
+#review-card-bg {
+    background: linear-gradient(2deg, rgba(0, 0, 0, 0.70) -9.42%, rgba(0, 0, 0, 0.00) 38.18%), url("/assets/images/review-card-bg.webp"), lightgray 50% / contain no-repeat;
+}
+
+#review-card-subheader {
+    width: 130px;
+    margin-left: 60px;
+}
+
+#review-card-text {
+    width: 300px;
+    font-size: 18px;
+}
+
+#review-card-container {
+    width: 470px;
+    margin: 0 100px 0 0;
+}
+
+/* Footer */
+
+footer {
+    width: 100%;
+    height: 180px;
+    background-color: #F8F8F8;
+    position: relative;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer-container {
+    margin: 0 120px 0 120px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer-info-container {;
+    width: 1024px;
+}
+
+#footer-socials-container {
+    width: 185px;
+    position: absolute;
+    right: 0;
+}
+
+#footer-logo {
+    height: 100%;
+}
+
+.footer-content {
+    max-width: 220px;
+    word-break: break-word;
+    color: #90A4B2;
+}
+
+/* NEW CODE */
+
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+.nav-link {
+    margin-right: 51px;
+}
+
+.nav-link:last-of-type {
+    margin-right: 0;
+}
+
+#header-logo, .icon {
+    max-width: 30px;
+}
+
+/* Header */
+header, section {
+    width: 100%;
+}
+
+.nav, #navigation-container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#main-section {
+    height: calc(100% - 240px);
+    margin: 120px 120px auto;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#sub-section {
+    height: 518px;
+    background-image: url("/assets/images/application-bg.webp");
+}
+
+.h1, .booking-number, #application-info p:first-of-type {
+    font-family: 'Playfair Display', serif;
+    font-size: 68px;
+    font-weight:600;
+}
+
+.text, h1, h6, .body-container, .application-card {
+    color: white;
+}
+
+.text, .card-info, .booking-title, #video-btn span {
+    font-size: 15px;
+}
+
+/* Best to add a new class */
+.montserrat {
+    font-family: 'Montserrat', serif;
+}
+
+.playfair {
+    font-family: 'Playfair Display', serif;
+}
+/* ... Rest of the code ... */
