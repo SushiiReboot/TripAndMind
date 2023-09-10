@@ -1,3 +1,12 @@
+html, body {
+    overflow-x: hidden;
+    margin: 0;
+}
+
+body {
+    overflow-y: hidden;
+}
+
 .text {
     color: white;
     font-size: 15px;
@@ -88,7 +97,7 @@ h6 {
 }
 
 #sub-title {
-    width: 70%;
+    width: 65%;
     line-height: 45px;
     font-weight: 400;
 }
@@ -166,7 +175,6 @@ h6 {
     align-self: end;
     display: flex;
     flex-direction: row;
-    margin-right: 126px;
 }
 
 /* Booking tabs */
@@ -488,64 +496,6 @@ footer {
     color: #90A4B2;
 }
 
-/* NEW CODE */
-
-html, body {
-    overflow-x: hidden;
-    margin: 0;
-}
-
-.nav-link {
-    margin-right: 51px;
-}
-
-.nav-link:last-of-type {
-    margin-right: 0;
-}
-
-#header-logo, .icon {
-    max-width: 30px;
-}
-
-/* Header */
-header, section {
-    width: 100%;
-}
-
-.nav, #navigation-container {
-    height: 100%;
-    display: flex;
-    align-items: center;
-}
-
-#main-section {
-    height: calc(100% - 240px);
-    margin: 120px 120px auto;
-    display: grid;
-    grid-template-rows: 2fr 1fr;
-    grid-template-columns: repeat(2, 1fr);
-}
-
-#sub-section {
-    height: 518px;
-    background-image: url("/assets/images/application-bg.webp");
-}
-
-.h1, .booking-number, #application-info p:first-of-type {
-    font-family: 'Playfair Display', serif;
-    font-size: 68px;
-    font-weight:600;
-}
-
-.text, h1, h6, .body-container, .application-card {
-    color: white;
-}
-
-.text, .card-info, .booking-title, #video-btn span {
-    font-size: 15px;
-}
-
-/* Best to add a new class */
 .montserrat {
     font-family: 'Montserrat', serif;
 }
@@ -553,4 +503,3 @@ header, section {
 .playfair {
     font-family: 'Playfair Display', serif;
 }
-/* ... Rest of the code ... */
